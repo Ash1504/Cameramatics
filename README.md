@@ -35,7 +35,7 @@ Does vehicle type have an influence on client satisfaction?
 1. data.json - input json file for the assessment.
 2. Q1_Data_ETL.ipynb - Python jupyter file for Data ETL.
 3. extracted_data.csv - CSV file with the data after parsing input json file.
-4. Q2_3_Analysis.ipynb - Python jupyter filer for Analysis of CSV data.
+4. Q2_3_Analysis.ipynb - Python jupyter file for Analysis of CSV data.
 5. Q4_Extra_Data_Modelling.ipynb - Python file for creating different dimensions and fact table based on the input json file.
 6. Q4-Extra-EDA.ipynb - Python file for the EDA of data. Here I am using DTale for auto visulization tool that helps getting the idea how data is correlated, description, missing analysis and feature engineering if necessary
 7. requirements.txt - Use this file to install all the required libraries for this project.
