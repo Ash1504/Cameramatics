@@ -69,3 +69,14 @@ You can verify that the libraries were installed by running:
 7. Deactivate the Virtual Environment:
 When you're done working on your project, deactivate the virtual environment with:
 `deactivate`
+
+
+## Data ETL and Analysis
+1. The given input json file was a string of dictionary without the objects separated by comma. So in the first file, prepared the json before reading it into dataframe.
+2. Created different functions to extract the required data from the json file which includes recursive funtion to get to all the employee in the node of the root, teir driver profile and metrics along with the taxi organization they belong to
+3. FInally did the analysis of top 10 drivers based on disabled and deleted fields in json to get active drivers, created a composite score and sentiment score based on metrics and sorted by them to get the results
+4. Also analysisd the sentiment score with the vehicle brand to get the idea of customer satisfaction based on the brand of vehicle the drivers are driving
+
+## Extra
+1. Created and EDA script to get the idea of the dataset, did some plotting to see if there is missing data, fetaure analysis. For this I am using a auto EDA library called DTale which is very handy for getting the idea of your data.
+2. Created a data model for the input json file. In this i have created dimensions and fact table that can be used to push data to database to get more insights
